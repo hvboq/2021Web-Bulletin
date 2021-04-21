@@ -3,7 +3,7 @@ import UserRegister from "./UserRegister";
 import UserList from "./UserList";
 
 const User = () => {
-    const userRef = useRef(0);
+    const userRef = useRef(1);
     const [userList, setUserList] = useState([]);
 
     return(

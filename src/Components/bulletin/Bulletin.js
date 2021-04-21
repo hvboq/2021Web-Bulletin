@@ -3,7 +3,7 @@ import BulletinInsert from "./BulletinInsert";
 import BulletinList from "./BulletinList";
 
 const Bulletin = () => {
-    const bulletinRef = useRef(0);
+    const bulletinRef = useRef(1);
     const [bulletinList, setbulletinList] = useState([]);
 
     return(
